@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peluqueria Canina Huellitas</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/b4cc3f7bc8.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="icon" href="media/peluqueria canina.png">
+</head>
+
+<body>
+
+    <a name="inicio"></a>
+    <!---barra de navegación--->
+    <div class="colum">
+        <nav class="navbar  col-xs-12" style="background-color: rgb(0, 174, 255);">
+            <div id="nav">
+                <a href="#Inicio"> <i class="fa-solid fa-paw"></i> Inicio</a>
+                <a href="#mapa"><i class="fa-solid fa-location-dot "></i> Ubicación</a></i>
+                <a href="#servicios"><i class="fa-solid fa-soap"></i> Preguntas Frecuentes</a>
+            </div>
+            <section id="Tel">
+                <a id="what" href="https://api.whatsapp.com/send?phone=3482445578&text=Hola, Quiero un turno!"> <i
+                        class="fa-brands fa-whatsapp"></i> Pedi tu turno</a>
+            </section>
+        </nav>
+    </div>
+    <!---fin barra-->
+
+    <!--Btn inicio-->
+
+
+    <a id="ir" href="#inicio"><i class="fa-solid fa-arrow-up"></i></a>
+
+
+
+    <!--Fin Btn inicio-->
+
+
+    <!-- logo--->
+    <section id="hero">
+
+        <div><img id="logomedio" src="media/peluqueria canina.png" alt=""> </div>
+        <h1 id="log">Priorizamos el bienestar de tu mascota </h1>
+
+    </section>
+    <!-- fin logo--->
+
+    <!--MAPA-->
+    <a name="mapa" class="hidden"></a>
+    <div class="parallax-container valign-wrapper">
+        <div class="bar">
+
+            <h1 id="ubi"><i class="fa-solid fa-location-dot"></i> Ubicación</h1>
+
+        </div>
+        <div class="parallax">
+            <iframe class="parallaxVideo"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d877.7372966570574!2d-59.25886717080749!3d-28.360385818766108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xca86407113767e29!2zMjjCsDIxJzM3LjQiUyA1OcKwMTUnMzAuMCJX!5e0!3m2!1ses!2sar!4v1663695254159!5m2!1ses!2sar"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+
+        </div>
+    </div>
+    <!--FIN MAPA-->
+
+
+    <!--Preguntas frecuentes-->
+
+    <div class="container-separador"></div>
+    <section id="servicios">
+        <div id="servicio">
+            <h3 id="servicios">Preguntas frecuentes</h3>
+
+        </div>
+    </section>
+    <div class="fon">
+        <div id="back" class="container">
+
+
+
+
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <i id="iconopreg" class="fa-regular fa-clock"></i> <b id="color2"> ¿Cuales son los horarios
+                                de atención?</b>
+                        </button>
+
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div id="informacionPerro" class="accordion-body">
+                            Nuestro horario es de lunes a viernes por la mañana de 8:00 a 12:00hs. Sabado por la mañana
+                            de 8:00 a 12:00hs y la tarde 17:00 a 20:00hs <br>
+
+                            En verano durante la tarde extendemos el horario de lunes a sábado desde las 16 hasta las 20
+                            hs
+
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            <i id="iconopreg" class="fa-solid fa-bath"></i> <b id="color1"> ¿Que otros tipos de servicio
+                                brindan? </b>
+                        </button>
+
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div id="informacionPerro" class="accordion-body">
+                            Así es, podemos bañar a tu mascota, caso de que no necesite un corte de pelo o
+                            simplemente arreglarlo si aún no necesita un corte en profundidad.
+
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            <i id="iconopreg" class="fa-solid fa-dog"></i> <b id="color2"> ¿Porqué es importante llevar
+                                a mi perro a una
+                                peluqueria?</b>
+                        </button>
+
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headinSix"
+                        data-bs-parent="#accordionFlushExample">
+                        <div id="informacionPerro" class="accordion-body">
+                            Los beneficios de llevar a tu perro la peluquería canina. Evitar golpes de calor. Las altas
+                            temperaturas pueden agobiar a tu mascota y la mejor solución pasa por un buen corte de pelo.
+                            Además, durante el invierno tu perro va acumulando pelo para protegerse contra el frío.
+                        </div>
+                    </div><br>
+                </div>
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <i id="iconopreg" class="fa-solid fa-paw"></i> <b id="color1">¿Cuántas veces es recomendable
+                                bañar a mi perro?</b>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div id="informacionPerro" class="accordion-body">
+                            la recomendación es no bañarlos más de una vez al mes o como máximo cada 3 semanas
+                            para
+                            no resecar su piel o perjudicar su pelaje. Si se trata de un perro adulto que
+                            permanece
+                            mucho tiempo en casa, la recomendación es bañar a tu perro al menos una vez cada
+                            tres
+                            meses.
+                        </div>
+                    </div><br>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            <i id="iconopreg" class="fa-solid fa-dog"></i> <b id="color2"> ¿Cuando debo llevar a la
+                                peluqueria a mi perro?</b>
+                        </button>
+
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div id="informacionPerro" class="accordion-body">
+                            Se recomienda que los pequeños caninos hagan su primera visita a la peluquería cuando tienen
+                            entre 3 y 4 meses, y ya han pasado por el periodo de vacunaciones. Cuanto mas cercano este a
+                            los 3 0 4 meses es más fácil será que se acostumbren a esa situación tan diferente a la que
+                            no están acostumbrados.
+                        </div>
+                    </div><br>
+                </div>
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+
+                            <i id="iconopreg" class="fa-solid fa-paw"></i> <b id="color1"> Mi perro tiene algún tipo de
+                                alergia
+                                ¿Puedo bañarlo y cortarle su pelo?</b>
+                        </button>
+                    </h2><br>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div id="informacionPerro" class="accordion-body"> <img src="" alt="">
+                            En la mayoría de los casos un tratamiento de peluquería canina adecuado ayuda al
+                            perro a
+                            mejorar su situación y hacer más llevadera, si tu perro tiene algún problema de
+                            alergía
+                            podemos cortarle el pelo sin ningún tipo de problema teniendo en cuenta sus
+                            necesidades
+                            y utilizando productos específicos.
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header" id="flush-headingSeven">
+                        <button id="clientes" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                            aria-controls="flush-collapseSeven">
+                            <i id="iconotijera" class="fa-sharp fa-solid fa-scissors"></i> <b id="color2"> Algunos de
+                                nuestros trabajos </b>
+                        </button>
+                        <br>
+                    </h2>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                        <div id="informacionPerro" class="accordion-body">
+                            <br>
+
+                            <div id="fotosclientes">
+
+                                <img src="media/perrobili2.png" alt="">
+
+                                <img src="media/perritoFon.png" alt="">
+
+                                <img src="media/perritoantesydespues.png" alt="">
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    </div>
+    <!---fin Preguntas frecuentes-->
+
+    <!--Seccion Comentarios-->
+    <section id="servicios">
+        <div id="servicio">
+            <h3 id="servicios">Seccion comentarios</h3>
+        </section>
+        </div>
+        <section id="comentariosfondo" >
+            
+            
+        <div  class="contenedor">
+            <h1>Dejanos tu opinion sobre nuestros servicios</h1>
+            <div class="ag-comentario">
+            <form>
+                <input type="text" placeholder="Agregar comentario">
+                <button class="btn-add">+</button>
+            </form>
+        </div>
+        <div class="li-container">
+            <ul>
+                
+            </ul>
+        </div>
+        <div>
+            <p>No tienes comentarios.</p>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</section>
+<!--Fin Seccion Comentarios-->
+
+
+<!--Barraredsocial-->
+
+<div class="barra-redes-sociales">
+    
+    
+    <a href="https://www.instagram.com/pelucanina_huellitas_/?hl=es" class="icon icon-instagram" target="_blank"> <i
+        class="fa-brands fa-instagram"></i> </a>
+    </div>
+
+    <!--Fin Barraredsocial-->
+
+    <!--pie de pagina--->
+    <footer class="container-fluid">
+        
+        <p id="copy">&copy;PeluqueriaCaninaHuellitas 2022. Desarrollado por <span>Ezequiel & Gabriel.</span></p>
+
+    </footer>
+    <!--finPieDePagina--->
+
+   
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+
+
+<script src="main.js"></script>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+</html>
